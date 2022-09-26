@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
 try {
-    mongoose.connect(`mongodb+srv://kame:Nw2tuySru2hr8Vi@main.z9dfj.mongodb.net/another-link-shortener`).then(
+    mongoose.connect(`<YOUR_CONNECTION_STRING>`).then(
         console.log('Database connected!')
     )
 } catch(e) {
