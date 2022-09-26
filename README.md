@@ -15,8 +15,6 @@
     Simple <strong>open-source</strong> url shortener
     <br />
     <br />
-    <a href="https://github.com/kamehame-ha/another-link-shortener">View Demo</a>
-    ·
     <a href="https://github.com/kamehame-ha/another-link-shortener/issues">Report Bug</a>
     ·
     <a href="https://github.com/kamehame-ha/another-link-shortener/issues">Request Feature</a>
