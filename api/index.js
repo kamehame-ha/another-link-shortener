@@ -1,6 +1,5 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const domain = 'http://localhost'
 
 const app = express()
 app.use(express.json())
@@ -15,6 +14,8 @@ try {
 }
 
 const link = require('./models/url.js')
+
+const domain = 'http://localhost'
 
 app.post('/save', async (req, res) => {
     const longUrl = req.body.url
